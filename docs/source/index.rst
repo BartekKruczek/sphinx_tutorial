@@ -5,6 +5,7 @@ Welcome to gower-metric documentation!
 derived as the complement of the Gower's similarity coefficient.
 
 Main features include:
+
 - Support for mixed data types (categorical, numerical, ordinal, binary)
 - Podani's support
 - Efficient computation using NumPy framework
@@ -24,11 +25,13 @@ Installation
 --------
 
 You can install the package via pip:
+
 .. code-block:: bash
 
    pip install gower-metric
 
 or add package to your project dependencies using uv:
+
 .. code-block:: bash
 
    uv add gower-metric
@@ -38,11 +41,13 @@ Quick start
 --------
 
 In order to import class, which calculate Gower's metric, you need to import it as follows:
+
 .. code-block:: python
 
    from gower_metric import Gower
 
 After that, we have to initialize the features type dictionary:
+
 .. code-block:: python
 
    data = [[1, 'a', 3.5], [2, 'b', 4.0], [3, 'a', 2.5], [4, 'c', 5.0]]
