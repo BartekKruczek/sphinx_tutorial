@@ -9,7 +9,7 @@ Main features include:
 - Support for mixed data types (categorical, numerical, ordinal, binary)
 - Podani's support
 - Efficient computation using NumPy framework
-- Numerical friendly thanks to `transform` call
+- Numerical friendly thanks to transform call
 - Easy integration with pandas DataFrames
 - Customizable weighting for different variable types
 - MIT License
@@ -70,8 +70,8 @@ Finally, we can fit our data and calculate Gower's distance over first and secon
 .. tip::
 
    To calculate the pairwise distances for the entire dataset, you can do it manually or 
-   use an auxiliary function, like: [scipy.spatial.distance.pdist](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.pdist.html) 
-   or [sklearn.metrics.pairwise_distances](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise_distances.html).
+   use an auxiliary function, like: `scipy.spatial.distance.pdist <https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.pdist.html>`_ 
+   or `sklearn.metrics.pairwise_distances <https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise_distances.html>`_.
 
 
 .. important::
