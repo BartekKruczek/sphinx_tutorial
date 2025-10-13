@@ -8,7 +8,7 @@ and offers a *simple* and *intuitive* API.
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project. Lumache hosts its documentation on Read the Docs.
-1.3 test
+1.3 test. Adding new layout.
 
 .. note::
 
