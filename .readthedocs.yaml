@@ -9,7 +9,7 @@ build:
 
 python:
   install:
-    - method: uv
+    - method: pip
       path: .
       extra_requirements:
         - docs
