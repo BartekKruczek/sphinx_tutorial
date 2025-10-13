@@ -26,13 +26,13 @@ Installation
 
 You can install the package via pip:
 
-.. code-block:: bash
+.. code-block:: console
 
    pip install gower-metric
 
 or add package to your project dependencies using uv:
 
-.. code-block:: bash
+.. code-block:: console
 
    uv add gower-metric
 
@@ -60,6 +60,20 @@ After that, we have to initialize the features type dictionary:
 
    gower = Gower(feature_types=feature_types)
 
+Finally, we can fit our data and calculate Gower's distance over first and second rows:
+
+.. code-block:: python
+
+   gower.fit(data)
+   distance = gower(data[0], data[1])
+
+.. tip::
+
+   To calculate the pairwise distances for the entire dataset, you can do it manually or 
+   use an auxiliary function, like: [scipy.spatial.distance.pdist](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.pdist.html) 
+   or [sklearn.metrics.pairwise_distances](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise_distances.html).
+
+
 .. important::
    
    It is crucial to not be mistaken here! The keys of the dictionary must correspond to the indices of the columns in your dataset,
@@ -70,6 +84,8 @@ Contents
 --------
 
 .. toctree::
+   :maxdepth: 1
+   :caption: Contents
 
    usage
    api
