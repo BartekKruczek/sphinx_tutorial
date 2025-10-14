@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Gower'
+copyright = '2025, Bartek'
+author = 'Bartek'
 
-release = '1.1'
-version = '1.1.0'
+release = '1.3'
+version = '1.3.0'
 
 # -- General configuration
 
@@ -17,6 +17,8 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx.ext.napoleon',
+    'sphinx_copybutton',
 ]
 
 intersphinx_mapping = {
@@ -29,7 +31,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = "pydata_sphinx_theme"
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
