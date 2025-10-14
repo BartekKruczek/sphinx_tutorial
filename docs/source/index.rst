@@ -1,5 +1,5 @@
 Welcome to gower-metric documentation!
-===================================
+======================================
 
 **Gower-metric** is a Python library for calculating distance for mixed-type variables 
 derived as the complement of the Gower's similarity coefficient.
@@ -20,9 +20,9 @@ Main features include:
    or if you find any issues, please visit the main [repository]() and 
    submit a pull request or open an issue.
 
---------
+------------
 Installation
---------
+------------
 
 The easiest way to install the gower_metric package is via pip:
 
@@ -30,9 +30,9 @@ The easiest way to install the gower_metric package is via pip:
 
    pip install gower-metric
 
---------
+-----------
 Quick start
---------
+-----------
 
 In order to import class, which calculate Gower's metric, you need to import it as follows:
 
@@ -74,26 +74,21 @@ Finally, we can fit our data and calculate Gower's distance over first and secon
    and the values must accurately represent the type of data in each column. This ensures that the Gower's metric is calculated 
    correctly based on the nature of each feature.
 
-Contents
---------
 
 .. toctree::
    :caption: Installation
    :maxdepth: 2
-   :hidden:
 
    installation
 
 .. toctree::
    :caption: User Guide
    :maxdepth: 2
-   :hidden:
 
    user_guide
 
 .. toctree::
    :caption: API Reference
    :maxdepth: 2
-   :hidden:
 
    api_reference

@@ -22,6 +22,6 @@ Development's versions can be found on GitHub with the following naming:
    <branch_name> - for the latest stable version
 
 Contribution
-=====
+============
 
 For contributions, please refer to the `CONTRIBUTING.md` file in the repository.
