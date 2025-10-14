@@ -79,7 +79,7 @@ Contents
 
 .. toctree::
    :maxdepth: 1
-   :caption: Contents
 
-   usage
-   api
+   installation
+   user_guide
+   api_reference
