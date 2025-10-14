@@ -1,9 +1,5 @@
 Installation
-=====
-
-------------
-Installation
-------------
+============
 
 You can install the gower_metric package via pip:
 
@@ -21,6 +17,11 @@ Development's versions can be found on GitHub with the following naming:
 
 .. code-block:: console
 
-   `<branch_name_dev>`_ - for the latest development version
+   <branch_name_dev> - for the latest development version
 
-   `<branch_name>`_ - for the latest stable version
+   <branch_name> - for the latest stable version
+
+Contribution
+=====
+
+For contributions, please refer to the `CONTRIBUTING.md` file in the repository.

@@ -78,8 +78,22 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 1
+   :caption: Installation
+   :maxdepth: 2
+   :hidden:
 
    installation
+
+.. toctree::
+   :caption: User Guide
+   :maxdepth: 2
+   :hidden:
+
    user_guide
+
+.. toctree::
+   :caption: API Reference
+   :maxdepth: 2
+   :hidden:
+
    api_reference
