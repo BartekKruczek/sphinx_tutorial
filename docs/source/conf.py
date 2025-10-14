@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Gower'
-copyright = '2025, Bartek'
-author = 'Bartek'
+project = 'Gower-metric'
+copyright = '2025, gower-metric developers'
+author = 'gower-metric developers'
 
-release = '1.3'
-version = '1.3.0'
+release = '1.4.0'
+version = '1.4.0'
 
 # -- General configuration
 

@@ -24,17 +24,11 @@ Main features include:
 Installation
 --------
 
-You can install the package via pip:
+The easiest way to install the gower_metric package is via pip:
 
 .. code-block:: console
 
    pip install gower-metric
-
-or add package to your project dependencies using uv:
-
-.. code-block:: console
-
-   uv add gower-metric
 
 --------
 Quick start
